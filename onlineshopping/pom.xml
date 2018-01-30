@@ -12,6 +12,15 @@
 		<spring.version>4.3.6</spring.version>
 	</properties>
 	<dependencies>
+
+		<!-- Link backend project -->
+
+		<dependency>
+			<groupId>com.milan</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -53,7 +62,7 @@
 			<artifactId>spring-core</artifactId>
 			<version>4.3.6.RELEASE</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
